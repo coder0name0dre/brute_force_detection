@@ -37,4 +37,9 @@ If the threshold is exceeded, the activity is flagged as a potential brute force
 
 Install dependencies:
 
-`pip install flask`
+```
+pip install flask
+```
+
+---
+
