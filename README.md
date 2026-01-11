@@ -43,3 +43,61 @@ pip install flask
 
 ---
 
+## How To Run The Project
+
+### 1. Start the Test Site
+
+```
+python test_site.py
+```
+
+Visit in your browser:
+
+```
+http://127.0.0.1:5000
+```
+
+Try logging in with incorrect credentials multiple times.
+
+---
+
+### 2. Start The Brute Force Detector
+
+In a **seperate terminal window**:
+
+```
+python brute_force_detector.py
+```
+
+The detector will begin monitoring login attempts in real time.
+
+---
+
+## Example Detection Output
+
+Console output:
+
+`2025-01-10 12:35:14 | BRUTE FORCE DETECTED | IP: 127.0.0.1 | Failures: 5`
+
+attack_log.txt:
+
+`2025-01-10 12:35:14 | BRUTE FORCE DETECTED | IP: 127.0.0.1 | Failures: 5`
+
+---
+
+## Configuration Options
+
+You can adjust detection sensitivity in `brute_force_detector.py`:
+
+- `max_failures` - number of failed attempts before triggering
+- `time_window` - time window (seconds) for counting failures
+
+Example:
+
+```
+max_failures = 5
+time_window = 60
+```
+
+---
+
