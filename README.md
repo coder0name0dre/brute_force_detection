@@ -22,8 +22,19 @@ This mirrors how real world security tools (IDS / SIEM / Fail2Ban style systems)
 
 The detector watches for:
 
-- Multiple failed login attempts
-  - From the same IP address
-  - Within a short time window
+- Multiple failed login attempts:
+  - from the same IP address
+  - within a short time window
  
 If the threshold is exceeded, the activity is flagged as a potential brute force attack.
+
+---
+
+## Requirements
+
+- Python 3.8+
+- Flask
+
+Install dependencies:
+
+`pip install flask`
