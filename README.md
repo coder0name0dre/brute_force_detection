@@ -59,8 +59,6 @@ http://127.0.0.1:5000
 
 Try logging in with incorrect credentials multiple times.
 
-
-
 ### 2. Start The Brute Force Detector
 
 In a **seperate terminal window**:
@@ -101,3 +99,25 @@ time_window = 60
 
 ---
 
+## Security & Ethical Notice
+
+- This project does not perform brute force attacks
+- It does not scan or target real systems
+- It should only be used on systems you own or have permission to test
+
+---
+
+## Skills Demonstrated
+
+- Python scripting
+- Flask basics
+- Log parsing
+- Real time file monitoring
+- Basic intrusion detection logic
+- Defensive security concepts
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/coder0name0dre/brute_force_detection/blob/main/LICENSE).
